@@ -6,7 +6,7 @@
 /*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/19 19:41:31 by maclara-          #+#    #+#             */
-/*   Updated: 2023/08/08 11:40:52 by maclara-         ###   ########.fr       */
+/*   Updated: 2023/08/08 11:57:50 by maclara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int main(void) {
 	std::cout << "Number found in vector : " << *it1 << std::endl;
 	std::cout << std::endl;
     
-	std::cout << "2. Test valid numbers: " << std::endl;
+	std::cout << "2. Test invalid numbers: " << std::endl;
 	try {
 		std::vector<int>::iterator it1 = easyfind(v_test, 11);
 		std::cout << *it1 << std::endl;
