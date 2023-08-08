@@ -6,7 +6,7 @@
 /*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/20 12:46:16 by maclara-          #+#    #+#             */
-/*   Updated: 2023/08/08 11:41:39 by maclara-         ###   ########.fr       */
+/*   Updated: 2023/08/08 12:47:23 by maclara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ public:
         
         MutantStack(const MutantStack<T, Container>& other) : MutantStack<T, Container>::stack(other){
         }
+        
         MutantStack<T, Container>& operator=(const MutantStack<T, Container>& other){
                 if (&other == this)
                         return (*this);
