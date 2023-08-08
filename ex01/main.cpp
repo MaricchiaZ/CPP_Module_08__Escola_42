@@ -6,7 +6,7 @@
 /*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/20 10:12:01 by maclara-          #+#    #+#             */
-/*   Updated: 2023/08/08 11:40:58 by maclara-         ###   ########.fr       */
+/*   Updated: 2023/08/08 12:10:03 by maclara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 int main() 
 {
-    std::cout << "SIMPLE TEST - 6,3,17,9,11" << std::endl;
+    std::cout << "SIMPLE TEST - 6, 3, 17, 9, 11" << std::endl;
     Span sp = Span(5);
 
     sp.addNumber(6);
@@ -44,10 +44,10 @@ int main()
     std::cout << std::endl;
 
 
-    std::cout << "BIG TEST - 100.00 elements" << std::endl;
+    std::cout << "BIG TEST - 10.000 elements" << std::endl;
 	Span sp2 = Span(10000);
 
-    // fill list of 100.000 elements
+    // fill list of 10.000 elements
 	int space = 10000;
 
     int begin = 0;
@@ -65,7 +65,7 @@ int main()
     std::cout << "Longest  span: " << sp2.longestSpan() << std::endl;
     std::cout << std::endl;
     
-	std::cout << "EXTRA BIG TEST - 100.00 elements" << std::endl;
+	std::cout << "EXTRA BIG TEST - 100.000 elements" << std::endl;
 	Span sp3 = Span(100000);
 
 	std::vector<int> vec;
